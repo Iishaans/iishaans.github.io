@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name's Resume</title>
+    <style>
+        /* Dark Mode Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #eaeaea;
+            margin: 0;
+            padding: 20px;
+        }
+        a {
+            color: #1e88e5;
+            text-decoration: none;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            background-color: #333;
+            color: #eaeaea;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <p>Senior Data Consultant</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>Introduce yourself here.</p>
+</section>
+
+<section>
+    <h2>Work Experience</h2>
+    <h3>Senior Data Consultant at EY</h3>
+    <p>Describe your role, achievements, and any other pertinent details here.</p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Feel free to reach out to me via <a href="mailto:your-email@example.com">email</a> or through the following social media platforms:</p>
+    <p>
+        <a href="your-linkedin-profile-link">LinkedIn</a> | 
+        <a href="your-twitter-profile-link">Twitter</a> | 
+        <a href="your-github-profile-link">GitHub</a>
+    </p>
+    
+    <h3>Contact Form</h3>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+</body>
+</html>
